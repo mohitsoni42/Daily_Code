@@ -6,9 +6,9 @@ def BS_recursion(ls, start, end, target):
     if ls[mid] == target:
         return mid +1
     elif (ls[mid] > target):
-        return BS_recursion(ls, start, mid -1, target)
+        BS_recursion(ls, start, mid -1, target)
     elif (ls[mid] < target):
-        return BS_recursion(ls, mid + 1, end, target)
+        BS_recursion(ls, mid + 1, end, target)
     else:
         return -1
 
