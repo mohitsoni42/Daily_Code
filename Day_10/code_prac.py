@@ -3,3 +3,9 @@
 #need to do the practic
 
 # more practice
+
+# become the best
+
+#focus
+
+#need to give time
